@@ -1,0 +1,127 @@
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body{
+    background: $gray;
+    // font-family: 'Roboto', sans-serif;
+    font-size: $font-md;
+    font-weight: 300;
+    line-height: 1.3;
+}
+
+a, a:visited, a:hover{
+    text-decoration: none;
+    color: $black;
+    cursor: pointer;
+}
+
+hr{
+    border: 1px solid rgba(128,128,128,.3);
+}
+
+// List
+ul{
+    list-style-type: none;
+}
+
+.container{
+    max-width: 73.125rem; // 11,70px
+    margin: 0 auto;
+}
+
+// FlexBox
+.flex{
+    display: flex;
+
+    &-wrap{
+        flex-wrap: wrap;
+    }
+
+    &-d-c{
+        flex-direction: column;
+    }
+
+    &-jc-sb{
+        justify-content: space-between;
+    }
+
+    &-jc-c{
+        justify-content: center;
+    }
+
+    &-ai-c{
+        align-items: center;
+    }
+
+    &-as-c{
+        align-self: center;
+    }
+}
+
+// Text
+.text{
+    &-a-c{
+        text-align: center;
+    }
+    &-a-c{
+        text-align: right;
+    }
+}
+
+// Width
+.w{
+    &-100vh{
+        width: 100vw;
+    }
+    &-100{
+        width: 100%;
+    }
+}
+
+// Height
+.h{
+    &-100vh{
+        height: 100vh;
+    }
+    &-100{
+        height: 100%;
+    }
+}
+
+// Font
+.font{
+    &-sm{
+        font-size: $font-sm; // 14px
+    }
+    &-md{
+        font-size: $font-md; // 16px
+    }
+    &-lg{
+        font-size: $font-lg; // 18px
+    }
+    &-xl{
+        font-size: $font-xl; // 24px
+    }
+    &-xxl{
+        font-size: $font-xxl; // 32px
+    }
+    &-xxxl{
+        font-size: $font-xxxl; // 48px
+
+    }
+    &-xxxxl{
+        font-size: $font-xxxxl; //64px
+    }
+
+    &-bold{
+        font-weight: bold;
+    }
+}
