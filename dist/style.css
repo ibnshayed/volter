@@ -146,7 +146,7 @@ ul {
 .header__overlay {
   background: black;
   position: absolute;
-  top: 0;
+  top: 61px;
   left: 0;
   right: 0;
   bottom: 0;
@@ -348,7 +348,7 @@ ul {
 
 @media (max-width: 35.9375rem) {
   .header__overlay {
-    opacity: 0.9;
+    opacity: 0.4;
   }
   .header__info {
     top: 120px;
