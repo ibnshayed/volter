@@ -178,6 +178,12 @@
             line-height: 1;
         }
 
+        .shirt{
+            position: absolute;
+            top: 114px;
+            left: -38px;
+        }
+
         .detail{
             padding-top: 30px;
             font-size: 15px;
@@ -185,14 +191,15 @@
 
         .btn{
             display: inline-block;
-            padding: 14px 28px;
+            padding: 16px 22px;
             background: transparent;
             color: white;
             border: 1px solid #fff;
             text-transform: uppercase;
-            letter-spacing: 1px;
-            word-spacing: 6px;
+            // letter-spacing: 1px;
+            // word-spacing: 6px;
             margin-top: 50px;
+            font-size: $font-md;
 
             &:hover{
                 background: $white;

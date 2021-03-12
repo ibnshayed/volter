@@ -11,8 +11,7 @@ html{
 
 body{
     background: $gray;
-    // font-family: 'Montserrat', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: $roboto;
     font-size: $font-md;
     font-weight: 400;
     line-height: 1.3;

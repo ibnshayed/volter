@@ -1,0 +1,98 @@
+.about{
+    background: $deepGray;
+    color: $white;
+    padding-top: 152px;
+
+    &__first{
+        > div{
+            flex-basis: 47%;
+        }
+
+        > div:first-child{
+            text-align: right;
+
+            a{
+                display: inline-block;
+                color: $white;
+                font-size: $font-sm;
+                padding: 2px 10px;
+                font-family: $montserrat ;
+            }
+
+            a.active:after{
+                content: "";
+                display: block;
+                width: 16px;
+                border: 1px solid $darkGold;
+            }
+
+            p{
+                font-size: 17px;
+                color: #b3b3b3;
+                padding-top: 30px;
+            }
+        }
+
+        > div:last-child{
+            p{
+                font-size: $font-sm;
+                color: $darkGold;
+                font-family: $montserrat;
+            }
+            h1{
+                font-size: 45px;
+                padding-top: 30px;
+                font-family: $montserrat;
+
+            }
+
+        }
+        
+    }
+
+    &__second{
+        margin-top: 90px;
+
+        > div{
+            flex: 1 0 32.9%;
+            background: #1d1d1d;
+            padding: 38px 62px;
+            margin: 2px;
+            border-radius: 4px;
+        }
+
+        img{
+            margin-right: 20px;
+        }
+        h3{
+            font-size: 15px;
+            font-family: $montserrat;
+            padding-bottom: 24px;
+        }
+
+        p{
+            color: $textGray;
+        }
+
+    }
+
+    &__third{
+        position: relative;
+
+        button{
+            position: absolute;
+            top: 48px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            padding: 18px 30px;
+            background: $buttonColor;
+            color: $white;
+            font-family: $montserrat;
+            text-transform: uppercase;
+            border: 0;
+            border-radius: 2px;
+            
+        }
+    }
+}

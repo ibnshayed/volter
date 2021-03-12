@@ -4,8 +4,11 @@ $black: rgba(0,0,0,1);
 $gray: rgba(250, 250, 250,1);
 $lightGray: rgba(240, 240, 240,1);
 $darkGray: rgba(85, 85, 85,1);
+$deepGray: rgba(40, 40, 40,1);
+$textGray: rgba(179, 179, 179,1);
 
 $darkGold: rgba(190,158,33,1);
+$buttonColor: rgba(187,155,29,1);
 
 
 
@@ -17,3 +20,8 @@ $font-xl: 1.5rem; // 24px
 $font-xxl: 2rem; // 32px
 $font-xxxl: 3rem; // 48px
 $font-xxxxl: 4rem; //64px
+
+// Font Family
+$roboto: 'Roboto', sans-serif;
+$montserrat: 'Montserrat', sans-serif;
+
